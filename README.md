@@ -1,6 +1,15 @@
 # Ember-cli-no-pods
 
-This README outlines the details of collaborating on this Ember addon.
+As implemented today pods causes extra IO that can cause build related performance issues.
+This addon removes that functionality, restoring some of the build performance.
+
+With the modules RFC, we expect to revisit all of this fun. Interim hacks FTW
+
+## usage
+
+```
+ember install ember-cli-no-pods
+```
 
 ## Installation
 
